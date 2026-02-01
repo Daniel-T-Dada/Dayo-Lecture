@@ -22,6 +22,9 @@ price = true;
 console.log("Datatype of third price = " + typeof price); // Output: boolean
 
 
+
+console.log("  ")
+console.log("  ")
 console.log("*******VARIABLE DECLARATION*******");
 // Variable declaration keywords:
 // 1. let: Introduced in ES6 (ECMAScript 2015), let allows you to declare block-scoped variables. Variables declared with let can be reassigned new values.
@@ -29,14 +32,22 @@ console.log("*******VARIABLE DECLARATION*******");
 // 2. const: Also introduced in ES6, const is used to declare block-scoped variables that cannot be reassigned after their initial assignment. However, if the variable holds an object or array, the contents of the object or array can still be modified.
 
 let city = "Lagos";
+console.log("City:", city);
+
 const country = "Nigeria";
+console.log("Country:", country);
 
 city = "Abuja"; // Reassigning a new value to the variable 'city'
+console.log("Updated City:", city);
 
 city = "Kano";
+console.log("Updated City again:", city);
 //country = "Ghana"; // This will throw an error because 'country' is declared with const
 
 
+
+console.log("  ")
+console.log("  ")
 console.log("*******VARIABLE NAMING RULES*******");
 //RULE: Choosing a variable name - Identifiers;
 // 1. Must begin with a letter (a-z, A-Z), underscore (_), or dollar sign ($).
@@ -45,9 +56,14 @@ console.log("*******VARIABLE NAMING RULES*******");
 // 4. Variable names are case-sensitive (e.g., myVar and myvar are different variables).
 // 5. Should be descriptive and meaningful to enhance code readability.
 
-// let fruit = "Apple";
+let fruits = "Apple";
+console.log("Fruits:", fruits);
 
+let _vegetables = "Carrot";
+console.log("Vegetables:", _vegetables);
 
+console.log("  ")
+console.log("  ")
 console.log("*******DATA TYPES*******");
 // Primitive Data Types in JavaScript:
 // There are different types of variables in JavaScript:
@@ -84,6 +100,9 @@ console.log(typeof uniqueId); // Output: symbol
 let bigNumber = BigInt(9007199254740991) + BigInt(1);
 console.log(bigNumber); // Output: 9007199254740992n
 
+
+console.log("  ")
+console.log("  ")
 console.log("*******TYPE CONVERSION*******");
 // Type Conversion: The process of converting a value from one data type to another.
 // Implicit Conversion: JavaScript automatically converts data types when necessary.
